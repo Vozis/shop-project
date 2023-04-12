@@ -1,6 +1,243 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d39cabf1-2122-4b4a-999d-c8f69e5d36be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/img/arrow-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/empty-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/grey-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/pizza-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/Pizzas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/arrow-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/empty-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/grey-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/pizza-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/pizzas.JSON" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CartEmpty.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CartItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Categories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Error/ErrorBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Error/ErrorBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pagination/Pagination.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pagination/Pagination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaBlockSkeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PizzaBlock/PizzaCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Search.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sort.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/palette.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/previews.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/useInitial.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Cart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ErrorPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/FullPizza.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/router.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_all.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_categories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_sort.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/libs/_normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/selectors/selectors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/slices/CartReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/slices/PizzaReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/slices/filterReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/store.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/calcTotalPrice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getCartFromLocalStorage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/math.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="com.haulmont.rcb.palette" />
+        <option value="com.haulmont.rcb.previews" />
+        <option value="com.haulmont.rcb.index" />
+        <option value="com.haulmont.rcb.useInitial" />
+        <option value="tsconfig.json" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Fp35iXvDG95Rt9RXbDBSOqkB7J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "code.cleanup.on.save": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/ilya/Documents/Geekbrains/React/ulbi-shop",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "/Users/ilya/Documents/Geekbrains/React/shop-project/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/img" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Pagination" />
+      <recent name="$PROJECT_DIR$/src/components/Search" />
+      <recent name="$PROJECT_DIR$/src/components/PizzaBlock" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d39cabf1-2122-4b4a-999d-c8f69e5d36be" name="Changes" comment="" />
+      <created>1665175017342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665175017342</updated>
+      <workItem from="1665175018745" duration="27820000" />
+      <workItem from="1665501207008" duration="14350000" />
+      <workItem from="1665585130778" duration="16105000" />
+      <workItem from="1665921439792" duration="11726000" />
+      <workItem from="1666070922345" duration="5558000" />
+      <workItem from="1666168317819" duration="13934000" />
+      <workItem from="1666361763009" duration="73000" />
+      <workItem from="1666361906533" duration="9000" />
+      <workItem from="1666361935992" duration="320000" />
+      <workItem from="1666362418774" duration="174000" />
+      <workItem from="1666422394414" duration="175000" />
+      <workItem from="1666422583065" duration="423000" />
+      <workItem from="1666423020307" duration="31548000" />
+      <workItem from="1666641607167" duration="474000" />
+      <workItem from="1666676411952" duration="128000" />
+      <workItem from="1666676548696" duration="25000" />
+      <workItem from="1666677004108" duration="547000" />
+      <workItem from="1666677562032" duration="42573000" />
+      <workItem from="1681316071112" duration="2550000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../shop-project/src/components/CartEmpty.tsx</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
